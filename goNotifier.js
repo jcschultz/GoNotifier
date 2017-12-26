@@ -4,11 +4,11 @@ const email = require('emailjs/email');
 const moment = require('moment');
 
 // email config
-const gmail_user = '';
-const gmail_password = '';
-const gmail_host = 'smtp.gmail.com';
-const email_to_notify = '';
-const email_sender = '';
+const gmail_user = ''; // Email username
+const gmail_password = ''; // Email password
+const gmail_host = 'smtp.gmail.com'; // Email server
+const email_to_notify = ''; // Recipient's email address
+const email_sender = ''; // Sender's email address
 
 // dhs config
 const url = 'https://ttp.cbp.dhs.gov/schedulerapi/slots?orderBy=soonest&limit=3&minimum=1&locationId=';
